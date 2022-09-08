@@ -25,7 +25,7 @@ header{
         display: flex;
         flex-direction: column;
         width:auto;
-        height: 40vh;
+        height: 50vh;
         justify-content: center;
         align-items: center;
         background-image:url(imagens/background.jpeg);
@@ -71,9 +71,9 @@ button{
     }
 }
 
-img{
-    width: 130px;
-    height: 130px;
+.social{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 1px solid rgb(9, 255, 50);
 }
@@ -135,6 +135,13 @@ height: 45px;
 border: none;
 }
 
+.obc{
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+
+}
+
 .projetos{
     width: cover;
     display: flex;
@@ -144,6 +151,21 @@ border: none;
     height:250px;
     border: 1px solid black;
 
+}
+
+span{
+
+    font-size: 20px;
+    color: red;
+    
+}
+
+
+.curso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
 }
 
 .block{
