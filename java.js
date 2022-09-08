@@ -1,1 +1,1 @@
-window.prompt("diga")
+window.alert("seja bem vindo(a)!)
