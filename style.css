@@ -162,7 +162,7 @@ cursor: pointer;
 }
 
 .projetos{
-    width:100%;
+    width:auto;
     overflow-y: scroll;
     scroll-behavior: smooth;
     height:400px;
