@@ -6,12 +6,28 @@ body{
 min-width: 340px;
  
 }
+h4{
+   margin-left:10px; 
+    align-self: baseline;
+    font-size: 15px;
+    color: rgb(1, 2, 2);
+
+}
+
+@media(max-width:500px){
+h4{
+   margin:auto 4px auto 4px; 
+    align-self: baseline;
+    font-size: 15px;
+    color: rgb(1, 2, 2);
+    }
+}
 
 header{
     display: flex;
     flex-direction: row;
     width:auto;
-    height: 20vh;
+    height: 16vh;
     justify-content: flex-start;
     align-items: center;
     background-image:url(imagens/background.jpeg);
@@ -94,7 +110,7 @@ button{
 p{
     font-size: 15px;
     color: rgb(255, 255, 255);
-    width:100%;
+    width:60%;
     font-family: monospace;
     height: auto;
     text-align: center;
@@ -162,18 +178,19 @@ cursor: pointer;
 }
 
 .projetos{
-    width:auto;
-    overflow-y: scroll;
+    width:1005;
+    height:280px;
+    margin: auto auto auto auto;
+    overflow-x:scroll;
     scroll-behavior: smooth;
-    height:400px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height:auto;
     border: 1px solid black;
     background-image:linear-gradient(150deg,white, black);
     border: 1px solid black;
+    
     
 }
 
@@ -183,13 +200,12 @@ cursor: pointer;
 .projetos{
   margin: auto;
     width: 300px;
-    height:250px;
+    height:280px;
     display: block;
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    
     flex-direction:column;
     background-image:linear-gradient(150deg,white, black);
     border: 2px solid black;
@@ -212,11 +228,13 @@ cursor: pointer;
     border: 1px solid black;
     border-radius: 15px;
     overflow: hidden;
+    transition: 1s;
 }
 
 .project:hover{
     margin: 10px;
     width:320px;
+    transition: 1s;
     height: 210px;
     display: flex;
     float: center;
@@ -226,13 +244,14 @@ cursor: pointer;
     justify-content: center;
     border: 1px solid black;
     border-radius: 15px;
+    transition: 1s;
    
 }
 
 @media(max-width:500px){
 
 .project{
-    width:50%;
+    width:60%;
     height: 220px;
     display: flex;
     flex-direction: column;
@@ -240,17 +259,20 @@ cursor: pointer;
     text-indent: 10px;
     box-shadow: 0.5rem 0.5rem 1rem black;
     text-align: center;
-    align-items: top;
+    align-items: center;
     justify-content:center;
     border: 1px solid black;
     border-radius: 15px;
-  
-    }
+        }
+}
+
+@media(max-width:500px){
     .project:hover{
        margin: auto;
-        width:200px;
-        height: auto;
+        width:65%;
+        height: 230px;
         display: flex;
+        margin:10px auto 10px auto;
         float: center;
         flex-direction: column;
         align-items: center;
@@ -270,6 +292,7 @@ span{
     color: red;
  
 }
+
 
 
 .curso{
@@ -326,6 +349,11 @@ span{
 
 }
 
+#block1:hover{
+background-image: url(imagens/app.channel.png);
+background-size:cover;
+}
+
 
 
 .block:hover{
@@ -353,6 +381,8 @@ label{
 }
 
 h2{
+    align-self:baseline;
+    position: absolute;   
     color: black;
     text-decoration: underline;
     font-family: monospace;
@@ -360,6 +390,17 @@ h2{
     text-align: center;
 }
 
+@media(max-width:500px){
+h2{
+       background-color: rgba(27, 21, 21, 0.550);
+       border-radius: 5px;
+    color: black;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    }
+}
 a{
     text-decoration: none;
 }
