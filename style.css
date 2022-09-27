@@ -32,7 +32,7 @@ header{
     display: flex;
     flex-direction: row;
     width:auto;
-    height: 16vh;
+    height: auto;
     justify-content: flex-start;
     align-items: center;
    /* background-image:url(imagens/background.jpeg);*/
@@ -109,7 +109,7 @@ button{
 
 
 .social{
-   
+   margin:5px auto auto auto;
     width: 75px;
     height: 75px;
     border-radius: 50%;
