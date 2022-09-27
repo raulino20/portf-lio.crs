@@ -109,6 +109,7 @@ button{
 
 
 .social{
+   
     width: 75px;
     height: 75px;
     border-radius: 50%;
@@ -117,6 +118,7 @@ button{
 
 @media(max-width:500px){
 .social{
+    margin:5px auto auto auto;
     width: 100px;
     height: 100px;
     border-radius: 50%;
