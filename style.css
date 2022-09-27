@@ -47,7 +47,7 @@ header{
         display: flex;
         flex-direction: column;
         width:auto;
-        height: 37vh;
+        height: auto;
         justify-content: center;
         align-items: center;
         /*background-image:url(imagens/background.jpeg);*/
