@@ -34,7 +34,7 @@ header{
     width:auto;
     height: auto;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
    /* background-image:url(imagens/background.jpeg);*/
    background-image: url(imagens/background.header.jpg);
     background-size: cover;
