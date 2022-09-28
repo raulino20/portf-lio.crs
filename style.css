@@ -30,11 +30,11 @@ h4{
 
 header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width:auto;
     height: auto;
     justify-content: flex-start;
-    align-items: left;
+    align-items:center;
    /* background-image:url(imagens/background.jpeg);*/
    background-image: url(imagens/background.header.jpg);
     background-size: cover;
