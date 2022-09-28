@@ -29,16 +29,18 @@ h4{
 }
 
 header{
+
     display: flex;
-    flex-direction: column;
-    width:auto;
-    height: auto;
+    flex-direction: row;
+    width: auto;
+    height: 16vh;
     justify-content: flex-start;
-    align-items:center;
-   /* background-image:url(imagens/background.jpeg);*/
-   background-image: url(imagens/background.header.jpg);
+    align-items: center;
+    /* background-image: url(imagens/background.jpeg); */
+    background-image: url(imagens/background.header.jpg);
     background-size: cover;
     border: 0.5px solid rgb(109, 109, 109);
+}
 }
 
 
