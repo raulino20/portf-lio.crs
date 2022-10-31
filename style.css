@@ -28,20 +28,32 @@ h4{
     }
 }
 
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li{
+list-style: none;
+}
+
 header{
 
     display: flex;
     flex-direction: row;
     width: auto;
-    height: auto;
-    justify-content: left;
+    height: 12vh;
+    justify-content: center;
     align-items: center;
     /* background-image: url(imagens/background.jpeg); */
     background-image: url(imagens/background.header.jpg);
     background-size: 100%;
     border: 0.5px solid rgb(109, 109, 109);
 }
-}
+
 
 
 @media(max-width:500px){
@@ -111,7 +123,7 @@ button{
 
 
 .social{
-   margin:5px auto 5px auto;
+   margin:0;
     width: 75px;
     height: 75px;
     border-radius: 50%;
